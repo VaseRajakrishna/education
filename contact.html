@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="Jquery/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scroll.js"></script>
+    <style>
+        .custom-jumbo {
+            width: 100%;
+            min-height: 350px;
+            padding-top: 170px;
+            background-image: url(pics/contact_bg.jpg);
+            background-size: cover;
+            color: #fff;
+        }
+        
+        .main-heading {
+            margin: 0px;
+            margin-bottom: 0px;
+        }
+        
+        .caption h2 {
+            margin: 0px;
+            margin-bottom: 0px;
+            text-align: center;
+        }
+        
+        .caption {
+            width: 100%;
+            color: #150d3f;
+            padding: 3% 0% 3% 0%;
+        }
+        
+        .bt-text {
+            font-size: 16px;
+        }
+        
+        .head-line {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .contact-devices-container {
+            color: #150d3f;
+        }
+        
+        .icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #150d3f;
+            display: inline-block;
+            font-family: FontAwesome;
+            font-size: 20px;
+            color: #150d3f;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            line-height: 50px;
+            transition: all .15s ease-in-out;
+        }
+        
+        .icon:hover {
+            background: #150d3f;
+            color: #fff;
+            box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.8);
+             text-decoration: none;
+        }
+        
+        .contact-section {
+            padding: 3% 2% 3% 2%;
+            box-sizing: border-box;
+            background: #6b61a2;
+            width: 100%;
+        }
+        
+        .form-content {
+            width: 90%;
+            margin: auto;
+        }
+        
+        .entry-feild {
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+        
+        .submit-btn,
+        .entry-feild textarea,
+        .entry-feild input {
+            width: 100%;
+            padding: 10px 0px 10px 10px;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #ececec;
+            background: #dad5f9;
+            transition: all .20s ease-in-out;
+        }
+        
+        input:focus,
+        textarea:focus {
+            box-shadow: 0px 0px 10px 2px rgba(21, 13, 63, 0.68);
+            background: #fff;
+        }
+        
+        #fname,
+        #mail {
+            width: 48%;
+            display: inline-block;
+        }
+        
+        #mail {
+            float: right;
+        }
+        
+        .contact-heading {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 5%;
+        }
+        
+        .btn-container {
+            margin-bottom: 0px;
+        }
+        
+        .submit-btn {
+            padding: 7px 25px 7px 25px;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            font-size: 16px;
+            background: #150d3f;
+            color: #fff;
+        }
+        
+        
+        .icon-container{
+            text-align: center;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        @font-face {
+            font-family: 'FontAwesome';
+            src: url('fonts/fontawesome-webfont.eot');
+            src: url('fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2') format('woff2'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/fontawesome-webfont.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        
+        .sub-heading {
+            text-align: center;
+            color: #150d3f;
+        }
+        
+        @media screen and (max-width:767px) {
+            #fname,
+            #mail {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            #mail {
+                float: none;
+                margin-bottom: 0px;
+            }
+        }
+        
+        
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container-fluid inner-nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Portfolio</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <h1 class="webholder">New website</h1>
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+                <!--<div class="nav navbar-nav navbar-right">
+                    <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                </div>-->
+            </div>
+        </div>
+    </nav>
+    <div class="custom-jumbo">
+        <h1 class="text-center main-heading">Contact Us</h1>
+    </div>
+    <div class="caption">
+        <h2>You're our First priority Let's Talk</h2>
+    </div>
+    <div class="contact-devices-container">
+        <div class="container">
+            <div class="col-md-4 col-sm-4 text-center">
+                <p class="head-line">Send Us</p>
+                <img src="" alt="">
+                <p class="bt-text">vaseraja888@gmail.com</p>
+            </div>
+            <div class="col-md-4 col-sm-4 text-center">
+                <p class="head-line">Call Us</p>
+                <img src="" alt="">
+                <p class="bt-text">9705418003, 8099997103</p>
+            </div>
+            <div class="col-md-4 col-sm-4 text-center">
+                <p class="head-line">Share Us</p>
+                <a href="#">
+                    <div class="icon fb"></div>
+                </a>
+                <a href="#">
+                    <div class="icon tw"></div>
+                </a>
+                <a href="">
+                    <div class="icon gp"></div>
+                </a>
+                <a href="#">
+                    <div class="icon ld"></div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="map-container"></div>
+    <div class="contact-section container">
+        <div class="form-container col-md-8">
+            <div class="contact-heading">
+                <h1>Contact with Us</h1>
+            </div>
+            <div class="form-content">
+                <form action="#" method="get">
+                    <div class="entry-feild">
+                        <input type="text" id="fname" name="fname" placeholder="Name" required>
+                        <input type="text" id="mail" name="mail" placeholder="e-Mail" required>
+                    </div>
+                    <div class="entry-feild">
+                        <input type="text" id="mobile" name="mobile" placeholder="Mobile-No" required>
+                    </div>
+                    <div class="entry-feild">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="entry-feild">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="btn-container entry-feild">
+                        <button class="submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="form-container col-md-4">
+            <div class="contact-heading">
+                <h1>Working Timings</h1>
+            </div>
+
+            <h3 class="sub-heading">Mondy - Saturday</h3>
+            <hr>
+            <h2 class="sub-heading">9:30 A.M - 6:30 P.M</h2>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="container">
+            <div class="col-md-3">
+                <div class="lr-text">
+                    <h2 class="text-center">Some heading </h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <object data="https://www.youtube.com/embed/T7calHilWK8">
+</object>
+            </div>
+            <div class="col-md-3">
+                <img src="pics/img.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-3">
+                <div class="lr-text">    
+                    <h2 class="text-center">Contact Info </h2>
+                    <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <div class="icon-container">
+                         <a href="#">
+                        <div class="icon fb ft-icon"></div>
+                    </a>
+                    <a href="#">
+                        <div class="icon tw ft-icon"></div>
+                    </a>
+                    <a href="">
+                        <div class="icon gp ft-icon"></div>
+                    </a>
+                    <a href="#">
+                        <div class="icon ld ft-icon"></div>
+                    </a>
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+        <hr class="custom-hr">
+        <p class="text-center">© 2017 VRK portfolio. All Rights Reserved.</p>
+    </div>
+<button class="go-up-btn"></button>
+</body>
+
+</html>

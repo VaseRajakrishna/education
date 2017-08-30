@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="Jquery/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scroll.js"></script>
+    <style>
+        .custom-jumbo {
+            width: 100%;
+            min-height: 350px;
+            padding-top: 170px;
+            background-color: #6b61a2;
+            color: #fff;
+        }
+        
+        .slide-two {
+            padding: 10% 5%;
+        }
+        .main-heading{
+            margin: 0px;
+            margin-bottom: 0px;
+        }
+        .slide-four h2,
+        .slide-two h2 {
+            vertical-align: middle;
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            margin-top: 0px;
+        }
+        
+        .slide-four {
+            padding: 4% 2%;
+            background: #ffc106;
+            transition: all .20s ease-in-out;
+            cursor: pointer;
+        }
+        
+        .slide-four:hover {
+            background: #ffd039;
+        }
+        
+        a.anchor {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .text-image-container {
+            width: 100%;
+            padding: 3% 0% 2% 3%;
+            background: #eceaf5;
+        }
+        
+        .inner-container {
+            width: 98%;
+            margin: auto;
+        }
+        
+        .text-content p {
+            width: 95%;
+            font-size: 18px;
+            padding-top: 10%;
+        }
+         @media screen and (max-width:480px) {
+             .slide-two h2,
+             .slide-four h2{
+                 font-size: 20px;
+             }
+             h2, h1{
+                 font-size: 20px;
+             }
+}
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container-fluid inner-nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Portfolio</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <h1 class="webholder">New website</h1>
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!--<div class="nav navbar-nav navbar-right">
+                    <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                </div>-->
+            </div>
+        </div>
+    </nav>
+    <div class="custom-jumbo">
+        <div class="jumbotorn">
+            <h1 class="text-center main-heading">About Our Website</h1>
+        </div>
+    </div>
+    <div class="slide-two">
+        <h2 class="text-center">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        </h2>
+    </div>
+    <div class="text-image-container">
+        <div class="inner-container row">
+            <div class="text-content col-md-6 col-sm-6">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            </div>
+            <div class="text-content col-md-5 col-sm-5">
+                <img src="pics/img.jpg" class="img-responsive" alt="">
+            </div>
+        </div>
+    </div>
+    <a href="#" class="anchor">
+        <div class="slide-four">
+            <h2 class="text-center">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </h2>
+        </div>
+    </a>
+
+    <div class="footer-container">
+        <div class="container">
+            <div class="col-md-3 col-sm-3">
+                <div class="lr-text">
+                    <h2 class="text-center">Some heading </h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <object data="https://www.youtube.com/embed/T7calHilWK8">
+</object>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <img src="pics/img.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="lr-text">
+                    <h2 class="text-center">Some heading </h2>
+                    <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="custom-hr">
+        <p class="text-center">© 2017 VRK portfolio. All Rights Reserved.</p>
+    </div>
+<button class="go-up-btn"></button>
+</body>
+
+</html>
