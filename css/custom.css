@@ -1,6 +1,10 @@
  * {
      margin: 0px;
  }
+body{
+    font-family: Josefin Slab;
+    font-size: 18px;
+}
  
  .navbar {
      margin-bottom: 0px;
@@ -48,7 +52,7 @@
  .nav>li {
      width: 20%;
      text-align: center;
-     font-size: 16px;
+     font-size: 18px;
      margin-left: 10px;
  }
  
@@ -101,7 +105,7 @@
  .image-wrapper {
      padding: 1% 0% 1% 0%;
      color: #150d3f;
-     font-size: 16px;
+     font-size: 18px;
      background: #cfcfcf;
  }
  
@@ -140,7 +144,7 @@
  
  .img-txt p {
      margin: 10% 0px 10% 0%;
-     font-size: 16px;
+     font-size: 18px;
  }
  
  .pic-info img {
@@ -152,12 +156,15 @@
  }
  
  .info-content p {
-     font-size: 16px;
+     font-size: 18px;
  }
  
  .image-content img {
      width: 100%;
  }
+.text-content p{
+    font-size: 18px;
+}
  
  .custom-hr {
      border-top: 0.5px solid rgba(51, 51, 51, 0.62);
@@ -253,6 +260,22 @@
      /*     content: "\f106";*/
      content: "\f176";
  }
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab Regular'), local('JosefinSlab-Regular'), url(fonts/46aYWdgz-1oFX11flmyEfegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Josefin Slab SemiBold'), local('JosefinSlab-SemiBold'), url(fonts/NbE6ykYuM2IyEwxQxOIi2PBf3Xtc57ojmY2ox2Xv8Go.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
  
  @media screen and (max-width:480px) {
      .slide-two h2,
@@ -260,18 +283,18 @@
          font-size: 20px;
      }
      h3 {
-         font-size: 16px;
-     }
-     h2 {
          font-size: 18px;
      }
-     h1 {
+     h2 {
          font-size: 20px;
+     }
+     h1 {
+         font-size: 22px;
      }
      .nb-btn {
          height: 35px;
          width: 25px;
-         font-size: 20px;
+         font-size: 22px;
      }
      .nb-btn:hover {
          box-shadow: 1px 1px 5px 2px rgba(21, 13, 63, 0.52);
