@@ -10,85 +10,8 @@
     <script src="Jquery/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scroll.js"></script>
-    <style>
-        @font-face {
-            font-family: 'FontAwesome';
-            src: url('fonts/fontawesome-webfont.eot');
-            src: url('fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2') format('woff2'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/fontawesome-webfont.svg') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        /* latin */
-        
-        @font-face {
-            font-family: 'Josefin Slab';
-            font-style: normal;
-            font-weight: 400;
-            src: local('Josefin Slab Regular'), local('JosefinSlab-Regular'), url(fonts/46aYWdgz-1oFX11flmyEfegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-        }
-        /* latin */
-        
-        @font-face {
-            font-family: 'Josefin Slab';
-            font-style: normal;
-            font-weight: 600;
-            src: local('Josefin Slab SemiBold'), local('JosefinSlab-SemiBold'), url(fonts/NbE6ykYuM2IyEwxQxOIi2PBf3Xtc57ojmY2ox2Xv8Go.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-        }
-        
-        .nb-btn {
-            position: absolute;
-            height: 50px;
-            width: 40px;
-            outline: none;
-            color: #fff;
-            background: rgba(21, 13, 63, 0.38);
-            transition: all .20s ease-in-out;
-            right: 0;
-            border: none;
-            font-family: FontAwesome;
-            text-rendering: auto;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            font-size: 30px;
-            visibility: hidden;
-        }
-        
-        .slider-container:hover .nb-btn {
-            visibility: visible;
-        }
-        
-        .nb-btn:hover {
-            box-shadow: 1px 1px 10px 2px rgba(21, 13, 63, 0.52);
-            background: rgba(21, 13, 63, 0.9);
-        }
-        
-        .b-btn {
-            left: 0;
-        }
-        
-        .b-btn:before {
-            content: "\f104";
-        }
-        
-        .n-btn:before {
-            content: "\f105";
-        }
-        
-        @media screen and (max-width:480px) {
-            .nb-btn {
-                height: 35px;
-                width: 25px;
-                font-size: 20px;
-                visibility: visible;
-            }
-            .nb-btn:hover {
-                box-shadow: 1px 1px 5px 2px rgba(21, 13, 63, 0.52);
-            }
-        }
+    <script src="js/auto.js"></script>
 
-    </style>
 </head>
 
 <body>
@@ -112,9 +35,7 @@
                     <li><a href="#">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <!--<div class="nav navbar-nav navbar-right">
-                    <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-                </div>-->
+
             </div>
         </div>
     </nav>
@@ -193,11 +114,11 @@
                 <p>Some text here enter</p>
             </div>
             <div class="img-txt col-sm-2 col-md-2">
-                <img src="pics/img.jpg" alt="">
+                <img src="pics/img9.jpg" alt="">
                 <p>Some text here enter</p>
             </div>
             <div class="img-txt col-sm-2 col-md-2">
-                <img src="pics/img.jpg" alt="">
+                <img src="pics/img10.jpg" alt="">
                 <p>Some text here enter</p>
             </div>
         </div>
@@ -205,7 +126,7 @@
     <div class="lr-container">
         <div class="container">
             <div class="col-md-6 col-sm-6 image-content">
-                <img src="pics/img.jpg" alt="">
+                <img src="pics/img7.jpg" alt="">
             </div>
             <div class="col-md-6 col-sm-6 text-content">
                 <h2>Enter some text here</h2>
@@ -223,11 +144,11 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
-                <object data="https://www.youtube.com/embed/XL5gZYqHO3M">
+                <object data="https://www.youtube.com/embed/q28W7N6Th58">
 </object>
             </div>
             <div class="col-md-3 col-sm-3">
-                <img src="pics/img.jpg" alt="" class="img-responsive">
+                <img src="pics/img8.jpg" alt="" class="img-responsive">
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="lr-text">
@@ -240,21 +161,6 @@
         <p class="text-center">© 2017 VRK portfolio. All Rights Reserved.</p>
     </div>
     <button class="go-up-btn"></button>
-    <script>
-        $(document).ready(function() {
-            nbBtnPosition();
-        })
-        $(window).resize(function() {
-            nbBtnPosition();
-        })
-
-        function nbBtnPosition() {
-            var nbTop = $(".slider-container").height() / 2 - $(".nb-btn").height() / 2;
-            $(".nb-btn").css("top", nbTop + "px");
-        }
-
-    </script>
-
 </body>
 
 </html>
